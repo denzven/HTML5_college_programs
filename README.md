@@ -1,6 +1,6 @@
 ## html5 sies college projects (11th B)
 #### made by Denzven Vadakkan Ignatius
-#### I DO NOT OWN THE CODE MYSELF IT HAS BEEN REFERRED AND WRITTEN FROM MY FYJC COLLEGE TEXTBOOK
+#### I DO NOT OWN THE CODE MYSELF (i meant only the programs) IT HAS BEEN REFERRED AND WRITTEN FROM MY FYJC COLLEGE TEXTBOOK
 ### [click here for the website](https://html5collegeprograms.denzvenignatius.repl.co/ "HTML programs site")
 
 ### [click here for the repl preview](https://repl.it/@DenzvenIgnatius/html-sies-college-basics "repl.it preview ")
