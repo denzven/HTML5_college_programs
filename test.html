@@ -23,6 +23,10 @@
 				this is test html lol... nothing much to see here.. 
 			</font>
 		</h3>
+
+		<br>
+		<button type = "button"> <li><a href ="https://www.w3schools.com/tags/default.asp">.     amazing resource for html     .</li> </a> </button>
+		</ol>
 		<img src="https://discord.com/assets/446a060321730a318ca1649b0cc40d44.svg" >
 		<img src="https://cdn.discordapp.com/icons/86484642730885120/a_573770a51b7ec486ded8721b0dc1c2e2.gif?size=128" >
 		<img src="https://cdn.discordapp.com/icons/770959070924374086/0fa056379b37ea78e868780f03791b36.webp?size=128" >
@@ -30,6 +34,41 @@
 
 	</body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The audio element</h1>
+
+<p>Click on the play button to play a sound:</p>
+
+<audio controls>
+  <source src="sounds/song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<h1>The video element</h1>
+
+<video width="320" height="240" controls>
+  <source src="videos/movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</body>
+<input type="text" value="test" id="myInput">
+<button onclick="myFunction()">Copy text</button>
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+
+</html>
+
 <html>
 	<body>
 		<script src="https://api.dsc.gg/widget.js" defer></script>
@@ -79,15 +118,3 @@ p.customfont {
 <img src="https://cdn.discordapp.com/app-assets/616940877042155531/616942758526976011.png" >
 <img src="assets/github.svg" >
 <br><br><br>
-<input type="text" value="test" id="myInput">
-<button onclick="myFunction()">Copy text</button>
-
-<script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
-}
-</script>
